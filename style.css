@@ -199,16 +199,6 @@ footer ul li {
   width: 50%;
 }
 
-@media only screen and (min-width: 530px) {
-  .skills {
-    width: 100%;
-  }
-
-  .weather {
-    width: 90%;
-  }
-}
-
 @media only screen and (min-width: 768px) {
   nav ul {
     display: flex;
@@ -218,12 +208,20 @@ footer ul li {
     /* display: flex; */
     width: 90%;
   }
+
+  .skills p {
+    width: 50%;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
+  body {
+    font-size: 1.5rem;
+  }
   .media-links {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    width: 20%;
   }
 
   .project-items {
@@ -235,6 +233,7 @@ footer ul li {
 
   .skills {
     display: flex;
+    flex-direction: row;
   }
 
   .skills p {
