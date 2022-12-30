@@ -1,2 +1,2 @@
-# Portfoliio
-Portfolio website
+# Portfolio
+Portfolio website- Not yet finished
