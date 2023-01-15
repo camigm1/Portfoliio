@@ -220,7 +220,7 @@ footer ul li {
   }
 
   nav ul {
-    justify-content: right;
+    justify-content: space-between;
   }
   .media-links {
     display: flex;
