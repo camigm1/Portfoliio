@@ -15,14 +15,30 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
     <link rel="manifest" href="/site.webmanifest" />
-    <title>Portfolio Website</title>
-    <script defer src="/main.js"></script>
+    <title>Camila|Portfolio</title>
+    <script defer src="script.js"></script>
   </head>
   <body>
     <header>
       <p>logo</p>
       <nav>
-        <ul>
+        <ul class="navigation">
+          <li class="ham" href="#">
+            Menu<svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="icon-size"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+              />
+            </svg>
+          </li>
           <li><a href="">Projects</a></li>
           <li><a href="">Skills</a></li>
           <li><a href="">About</a></li>
@@ -42,18 +58,16 @@
     <section class="project-container">
       <h2>Projects</h2>
       <div class="project-items">
-        <div class="weather">
-          <img src="/unplugged-image.png" alt="" />
-          <h4>Unplugged</h4>
-          <p class="">A simple landing site</p>
-          <p>Skills: Flexbox, HTML5, CSS#</p>
-          <a
-            class="project-btn"
-            href="https://lucky-meerkat-a618a4.netlify.app/"
-            target="_blank"
-            >Live Page</a
-          >
-        </div>
+        <a href="https://lucky-meerkat-a618a4.netlify.app/" target="_blank"
+          ><div class="weather">
+            <img src="/unplugged-image.png" alt="" />
+            <h4>Unplugged</h4>
+            <p class="">A simple landing site</p>
+            <p>Skills: Flexbox, HTML5, CSS#</p>
+            <a class="project-btn" target="_blank">Live Page</a>
+          </div>
+        
+
         <div class="weather">
           <img src="/weatherhub.png" alt="weatherhub" />
           <h4>Weather Hub Site</h4>
