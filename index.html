@@ -11,6 +11,13 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
@@ -20,7 +27,8 @@
   </head>
   <body>
     <header>
-      <p>logo</p>
+      <!-- <img src="/name-logo/vector/default.svg" alt="" /> -->
+      <p class="logo">CG</p>
       <nav>
         <ul class="navigation">
           <li class="ham" href="#">
@@ -39,10 +47,10 @@
               />
             </svg>
           </li>
-          <li><a href="">Projects</a></li>
-          <li><a href="">Skills</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Contact Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#my-skills">Skills</a></li>
+          <li><a href="#about-me">About</a></li>
+          <li><a href="#contact-me">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -55,7 +63,7 @@
         </p>
       </div>
     </main>
-    <section class="project-container">
+    <section id="projects" class="project-container">
       <h2>Projects</h2>
       <div class="project-items">
         <div class="weather">
@@ -120,7 +128,7 @@
         </div>
       </div>
     </section>
-    <section class="skills-container">
+    <section id="my-skills" class="skills-container">
       <h2>Skills</h2>
       <h3>Developer Skills</h3>
       <div class="skills">
@@ -132,7 +140,7 @@
         <p>Responsive Websites</p>
       </div>
     </section>
-    <section class="about-section">
+    <section id="about-me" class="about-section">
       <div class="about-container">
         <div class="about-image"><img src="placeholder.jpg" alt="" /></div>
         <div class="about-info">
@@ -146,7 +154,7 @@
     </section>
     <footer>
       <h2>Let's Connect!</h2>
-      <div class="contact">
+      <div id="contact-me" class="contact">
         <ul class="personal-info">
           <li>Phone #: 954-618-9743</li>
           <li>Email: camigm1@gmail.com</li>
