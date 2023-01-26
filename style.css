@@ -7,6 +7,14 @@ body {
   text-align: center;
 }
 
+.website-links {
+  text-decoration: none;
+  color: black;
+}
+.website-links:hover {
+  text-decoration: underline;
+}
+
 /*header*/
 header {
   padding: 1.5%;
@@ -314,7 +322,9 @@ footer ul li {
   .weather {
     width: 38%;
   }
-
+  .project-btn {
+    display: none;
+  }
   .skills {
     display: flex;
     flex-direction: row;
