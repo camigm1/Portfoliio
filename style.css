@@ -14,10 +14,14 @@ body {
 .website-links:hover {
   text-decoration: underline;
 }
-
+h1,
+h2,
+h3 {
+  color: #333;
+}
 /*header*/
 header {
-  padding: 1.5%;
+  padding-right: 1%;
   font-family: sans-serif;
   display: flex;
   background-color: #453e4f;
@@ -75,6 +79,10 @@ nav {
   text-decoration: none;
   font-size: 22px;
   padding: 5px;
+}
+
+.navigation li:hover {
+  text-decoration: underline;
 }
 
 .responsive li {
@@ -219,6 +227,7 @@ main h1 {
 
 .about-info {
   width: 100%;
+  text-align: left;
 }
 
 /*footer*/
@@ -231,6 +240,10 @@ footer {
 
 footer ul li {
   list-style: none;
+}
+
+footer h2 {
+  color: #ffe8d6;
 }
 
 .contact {
@@ -252,19 +265,31 @@ footer ul li {
   display: flex;
   padding-top: 10px;
   padding-left: 0;
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
+  justify-content: space-between;
 }
 .linkedin {
-  width: 50%;
+  width: 80%;
 }
 
 .instagram {
-  width: 25%;
+  width: 35%;
 }
 
 .facebook {
-  width: 50%;
+  width: 75%;
+}
+
+.github {
+  width: 100%;
+  padding-left: 20%;
+}
+
+.copyright p {
+  font-size: 1rem;
+  margin-top: 5%;
+  margin-bottom: 0;
 }
 
 @media only screen and (min-width: 768px) {
@@ -296,6 +321,10 @@ footer ul li {
   .skills p {
     width: 50%;
   }
+
+  .media-links {
+    width: 40%;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -306,11 +335,7 @@ footer ul li {
     display: flex;
     justify-content: space-between;
   }
-  .media-links {
-    display: flex;
-    /* flex-wrap: wrap; */
-    width: 20%;
-  }
+
   nav {
     width: 40%;
   }
@@ -344,5 +369,22 @@ footer ul li {
 
   .about-container {
     display: flex;
+  }
+
+  .contact {
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .media-links {
+    display: flex;
+    /* flex-wrap: wrap; */
+    width: 20%;
+    justify-content: space-between;
+  }
+
+  .personal-info {
+    width: 20%;
   }
 }
