@@ -204,7 +204,7 @@ main h1 {
 
 .skills {
   flex-direction: column;
-  width: 70%;
+  width: 65%;
   margin: 0 auto;
   display: flex;
   gap: 5px;
@@ -229,12 +229,12 @@ main h1 {
   margin: 0 auto;
 }
 
-.about-image {
+/* .about-image {
   width: 100%;
-}
+} */
 
 .about-image img {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -334,11 +334,15 @@ footer h2 {
   .weather {
     width: 68%;
   }
-
+  .skills {
+    width: 50%;
+  }
   .skills p {
     width: 50%;
   }
-
+  .about-container {
+    width: 70%;
+  }
   .media-links {
     width: 40%;
   }
@@ -356,6 +360,10 @@ footer h2 {
   nav {
     width: 50%;
   }
+
+  .developer-skills {
+    margin-top: 60px;
+  }
   .project-items {
     display: flex;
     flex-wrap: wrap;
@@ -372,18 +380,45 @@ footer h2 {
   }
 
   .skills {
+    width: 70%;
     display: flex;
     flex-direction: row;
     margin-bottom: 5%;
+    align-items: center;
+
+    /* width: 0; */
   }
 
   .skills p {
-    width: 25%;
+    /* width: 25%; */
+    align-items: center;
     padding: 2%;
   }
 
+  .skills .adobe {
+    width: 20%;
+  }
+  .skills .vs-code {
+    width: 23%;
+  }
+  .about-title {
+    margin-top: 0;
+  }
   .about-container {
     display: flex;
+    gap: 3%;
+    width: 75%;
+    font-size: 1rem;
+  }
+
+  .about-info {
+    width: 50%;
+  }
+  .about-image {
+    width: 50%;
+  }
+  .about-image img {
+    width: 100%;
   }
 
   .contact {
