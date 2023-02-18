@@ -279,7 +279,7 @@ footer h2 {
   padding-top: 10px;
   padding-left: 0;
   width: 70%;
-  margin: 0 auto;
+  margin: 30px auto;
   justify-content: space-between;
 }
 .linkedin {
@@ -287,7 +287,7 @@ footer h2 {
 }
 
 .instagram {
-  width: 35%;
+  width: 80%;
 }
 
 .facebook {
@@ -295,8 +295,7 @@ footer h2 {
 }
 
 .github {
-  width: 90%;
-  margin-left: 25%;
+  width: 85%;
 }
 
 .copyright p {
@@ -380,7 +379,7 @@ footer h2 {
   }
 
   .skills {
-    width: 70%;
+    width: 65%;
     display: flex;
     flex-direction: row;
     margin-bottom: 5%;
@@ -391,6 +390,7 @@ footer h2 {
 
   .skills p {
     /* width: 25%; */
+    font-size: 1.2rem;
     align-items: center;
     padding: 2%;
   }
@@ -418,7 +418,7 @@ footer h2 {
     width: 50%;
   }
   .about-image img {
-    width: 100%;
+    width: 90%;
   }
 
   .contact {
@@ -430,6 +430,7 @@ footer h2 {
   .media-links {
     display: flex;
     /* flex-wrap: wrap; */
+    margin: 0 auto;
     width: 20%;
     justify-content: space-between;
   }
