@@ -214,8 +214,13 @@ main h1 {
   margin: 0 auto;
 }
 
+.about-image {
+  background-color: #453e4f;
+  width: 80%;
+}
+
 .about-image img {
-  width: 100%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -320,6 +325,10 @@ footer h2 {
   }
   .about-container {
     width: 70%;
+  }
+
+  .about-image {
+    width: 100%;
   }
   .media-links {
     width: 40%;
