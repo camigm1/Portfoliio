@@ -215,12 +215,11 @@ main h1 {
 }
 
 .about-image {
-  background-color: #453e4f;
-  width: 80%;
+  width: 100%;
 }
 
 .about-image img {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
 }
 
