@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="normalize.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -62,9 +63,89 @@
     </main>
     <section id="projects" class="project-container">
       <h2>Projects</h2>
+
       <div class="project-items">
         <div class="weather">
-          <img src="unplugged-image.png" alt="" />
+          <a
+            class="website-links"
+            href="https://camigm1.github.io/week11/preston.html"
+            target="_blank"
+            ><img src="weatherhub.png" alt="weatherhub"
+          /></a>
+          <a
+            class="website-links"
+            href="https://camigm1.github.io/week11/preston.html"
+            target="_blank"
+            ><h4>WeatherHub</h4></a
+          >
+          <p class="description">
+            The Weather Hub is a community site featuring different cities from
+            the area.
+          </p>
+          <p class="description-skills">
+            Skills: APIs,JavaScript DOM, CSS Grid, Image Optimization
+          </p>
+          <a
+            class="project-btn"
+            href="https://camigm1.github.io/week11/preston.html"
+            target="_blank"
+            >Live Page</a
+          >
+        </div>
+        <div class="weather">
+          <a
+            href="https://qjclvl.csb.app/"
+            class="website-links"
+            target="_blank"
+            ><img src="name-tag-generator.png" alt=""
+          /></a>
+          <a
+            href="https://qjclvl.csb.app/"
+            class="website-links"
+            target="_blank"
+            ><h4>Name Tag Generator</h4></a
+          >
+          <p class="description">
+            A virtual name tag generator where you can add and delete name tags.
+          </p>
+          <p class="description-skills">
+            Skills: JavaScript,CSS3, HTML5, ReactJS
+          </p>
+          <a class="project-btn" href="https://qjclvl.csb.app/" target="_blank"
+            >Live Page</a
+          >
+        </div>
+        <div class="weather">
+          <a
+            href="https://camigm1.github.io/guess-the-word/"
+            class="website-links"
+            target="_blank"
+            ><img src="guess_word.png" alt=""
+          /></a>
+          <a
+            href="https://camigm1.github.io/guess-the-word/"
+            class="website-links"
+            target="_blank"
+            ><h4>Guess the Word</h4></a
+          >
+          <p class="description">
+            A virtual game where you guess the word by trying each letter.
+          </p>
+          <p class="description-skills">Skills: JavaScript,CSS3, HTML5</p>
+          <a
+            class="project-btn"
+            href="https://camigm1.github.io/guess-the-word/"
+            target="_blank"
+            >Live Page</a
+          >
+        </div>
+        <div class="weather">
+          <a
+            class="website-links"
+            href="https://lucky-meerkat-a618a4.netlify.app/"
+            target="_blank"
+            ><img src="unplugged-image.png" alt=""
+          /></a>
           <a
             class="website-links"
             href="https://lucky-meerkat-a618a4.netlify.app/"
@@ -84,29 +165,6 @@
           >
         </div>
 
-        <div class="weather">
-          <img src="weatherhub.png" alt="weatherhub" />
-          <a
-            class="website-links"
-            href="https://camigm1.github.io/week11/preston.html"
-            target="_blank"
-            ><h4>Weather Hub Site</h4></a
-          >
-
-          <p class="description">
-            The Weather Hub is a community site featuring different cities from
-            the area.
-          </p>
-          <p class="description-skills">
-            Skills: APIs,Javascript DOM, CSS Grid, Image Optimization
-          </p>
-          <a
-            class="project-btn"
-            href="https://camigm1.github.io/week11/preston.html"
-            target="_blank"
-            >Live Page</a
-          >
-        </div>
         <!-- <div class="weather">
           <img src="/lehichamber.png" alt="" />
           <h4>Lehi Chamber of Commerce</h4>
@@ -124,7 +182,12 @@
           >
         </div> -->
         <div class="weather">
-          <img src="rogue-pickings.png" alt="" />
+          <a
+            href="https://shiny-starburst-8d7b5b.netlify.app/"
+            class="website-links"
+            target="_blank"
+            ><img src="rogue-pickings.png" alt=""
+          /></a>
           <a
             href="https://shiny-starburst-8d7b5b.netlify.app/"
             class="website-links"
@@ -144,43 +207,6 @@
             >Live Page</a
           >
         </div>
-        <div class="weather">
-          <img src="guess_word.png" alt="" />
-          <a
-            href="https://camigm1.github.io/guess-the-word/"
-            class="website-links"
-            target="_blank"
-            ><h4>Guess the Word</h4></a
-          >
-          <p class="description">
-            A virtual game where you guess the word by trying each letter.
-          </p>
-          <p class="description-skills">Skills: Javascript,CSS3, HTML5</p>
-          <a
-            class="project-btn"
-            href="https://camigm1.github.io/guess-the-word/"
-            target="_blank"
-            >Live Page</a
-          >
-        </div>
-        <div class="weather">
-          <img src="name-tag-generator.png" alt="" />
-          <a
-            href="https://qjclvl.csb.app/"
-            class="website-links"
-            target="_blank"
-            ><h4>Name Tag Generator</h4></a
-          >
-          <p class="description">
-            A virtual name tag generator where you can add and delete name tags.
-          </p>
-          <p class="description-skills">
-            Skills: Javascript,CSS3, HTML5, ReactJS
-          </p>
-          <a class="project-btn" href="https://qjclvl.csb.app/" target="_blank"
-            >Live Page</a
-          >
-        </div>
       </div>
     </section>
     <section id="my-skills" class="skills-container">
@@ -189,14 +215,14 @@
       <div class="skills">
         <p>HTML5</p>
         <p>CSS3</p>
-        <p>Javascript</p>
+        <p>JavaScript</p>
         <p>ReactJS</p>
         <p>SCSS</p>
         <p>Responsiveness</p>
       </div>
       <h4>Developer Tools</h4>
       <div class="skills tools">
-        <p>Git & Github</p>
+        <p>Git & GitHub</p>
         <p class="adobe">Adobe</p>
         <p>Chrome Dev tools</p>
         <p class="vs-code">VS Code</p>
@@ -208,10 +234,11 @@
         <div class="about-info">
           <h2 class="about-title">About Me</h2>
           <p>
-            Currently living in Utah, I graduated with a degree in Exercise and
-            Wellness. Shortly after, I found out that I have a passion for
-            FrontEnd Development and the logic and creativity it gives me. I
-            love having the opportunity of always learning something new.<br />
+            My name is Camila Gallegos and I currently living in Utah, I
+            graduated with a degree in Exercise and Wellness. Shortly after, I
+            found out that I have a passion for Front End Development and the
+            logic and creativity it gives me. I love having the opportunity of
+            always learning something new.<br />
             In my free time, I love working in coffee shops, working out,
             reading, and enjoying the nature part of Utah, which is very
             beautiful!
@@ -223,7 +250,7 @@
       <h2>Let's Connect!</h2>
       <div id="contact-me" class="contact">
         <ul class="personal-info">
-          <li>Phone #: 954-618-9743</li>
+          <!-- <li>Phone #: 954-618-9743</li> -->
           <li>Email: camigm1@gmail.com</li>
         </ul>
         <ul class="media-links">
@@ -234,11 +261,6 @@
               ><img class="linkedin" src="new-linkedin.png" alt="linked-in"
             /></a>
           </li>
-          <!-- <li>
-            <a href="https://www.instagram.com/camiwami15/" target="_blank"
-              ><img class="instagram" src="new-ig.png" alt="Instagram"
-            /></a>
-          </li> -->
           <li>
             <a
               href="https://www.facebook.com/camila.gallegos.18/"
@@ -248,7 +270,7 @@
           </li>
           <li>
             <a href="https://github.com/camigm1" target="_blank"
-              ><img class="github" src="new-github.png" alt="github"
+              ><img class="github" src="github-2.png" alt="github"
             /></a>
           </li>
         </ul>
