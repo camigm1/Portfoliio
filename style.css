@@ -243,6 +243,10 @@ footer ul li {
   list-style: none;
 }
 
+footer ul li a {
+  color: #ffe8d6;
+}
+
 footer h2 {
   color: #ffe8d6;
 }
